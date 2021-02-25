@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Waifu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Waifu\\.nuget\\packages"
+    ]
+  }
+}
