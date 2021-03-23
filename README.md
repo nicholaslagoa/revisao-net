@@ -1,6 +1,6 @@
 ### App Revisão .NET Core - Array de Alunos
 
-Criada por mim, @nicoloide01, esta é uma aplicação criada utilizando .NET Core e C# visando a prática das linguagens em questão. A proposta é criar um sistema de inserção de alunos de uma "turma" em console, onde o usuário possa realizar as seguintes operações:
+Criada por mim, @nicholaslagoa, esta é uma aplicação criada utilizando .NET Core e C# visando a prática das linguagens em questão. A proposta é criar um sistema de inserção de alunos de uma "turma" em console, onde o usuário possa realizar as seguintes operações:
 
 * Adicionar alunos
 * Consultar alunos
