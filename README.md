@@ -1,27 +1,23 @@
-### App Revisão .NET Core - Array de Alunos
+### .NET Core Review App - Student Array
 
-Criada por mim, @nicholaslagoa, esta é uma aplicação criada utilizando .NET Core e C# visando a prática das linguagens em questão. A proposta é criar um sistema de inserção de alunos de uma "turma" em console, onde o usuário possa realizar as seguintes operações:
+Created by me, @nicholaslagoa, this is an application created using .NET Core and C# aimed at the practice of the languages in question. The proposal is to create a system for inserting students from a "class" in a console, where the user can perform the following operations: 
 
-* Adicionar alunos
-* Consultar alunos
-* Calcular a média geral dos alunos
-* Sair da aplicação
+* Add students
+* List students
+* Calculate students's overall average
+* Quit application
 
-As operações são auto-explicativas e, no momento da criação deste README, o limite de alunos a serem adicionados é 5, portanto o usuário pode adicionar, consultar e calcular a média de até 5 alunos.
+The operations are self-explanatory and, at the time of creating this README, the limit of students to be added is 5, so the user can add, consult and average up to 5 students.
 
-Para iniciar a aplicação, no momento, é necessária a utilização de um terminal de console(o padrão do Windows, Bash ou outros), os arquivos deste repositório e a SDK do .NET Core, disponibilizada oficialmente e de graça pela Microsoft. Navegue até a pasta da aplicação baixada e utilize o comando *dotnet run* e a aplicação em console se dará início.
-
-
-
-Para o desenvolvimento do app, escolhi organizar em uma classe **Aluno** os atributos dos alunos a serem inseridos e em uma struct **Conceito**, as definições de conceito para as médias. A escolha da struct para os conceitos foi puramente didática, visto que não acho necessário a alocação de memória de uma struct para um fim tão simples *neste caso*, a utilização de uma string seria muito mais viável.
+To start the application, at the moment, it is necessary to use a console terminal (the standard of Windows, Bash or others), the files of this repository and the .NET Core SDK, made available officially and for free by Microsoft. Navigate to the downloaded application folder and use the command *dotnet run* and the console application will start.
 
 
+For the development of the app, I chose to organize in a class **Student** the attributes of the students to be inserted and in a struct **Concept**, the concept definitions for the averages. The choice of struct for the concepts was purely didactic, since I do not think it necessary to allocate memory from a struct for such a simple purpose *in this case*, the use of a string would be much more feasible.
 
-Acredito que com a leitura dos comentários que coloquei na codificação do programa, uma pessoa consiga entender o que cada função faz e por quê escolhi aquela forma de resolução de problema, assim ajudando tanto os usuários do GitHub a entender minha aplicação(por mais simples que seja) e a mim mesmo, localizando informações a serem alteradas ou relembradas para algum fim no futuro. Segue uma lista de funcionalidades(maioria acredito que exceções) que acredito que colaborariam com o app e que ainda não coloquei.
 
-
+I believe that by reading the comments that I wrote in the program's coding, a person can understand what each function does and why I chose that form of problem solving, thus helping both GitHub users to understand my application (as simple as that can be) and myself, finding information to be changed or remembered for some purpose in the future. Here is a list of features (most I believe are exceptions) that I believe would collaborate with the app and that I have not yet added. 
 
 ### TODO LIST:
 
-1. Não deixar o usuário calcular a média sem entrar nenhum aluno(atualmente resulta em UnhandledException)
-2. Adicionar função para que o usuário consiga limitar ele mesmo a quantidade de alunos na turma ou retirar o limite(?) de alunos
+1. Do not let the user calculate the average without entering any students (currently results in UnhandledException) 
+2. Add function so that the user can limit the number of students in the class himself or remove the limit (?) of students 
